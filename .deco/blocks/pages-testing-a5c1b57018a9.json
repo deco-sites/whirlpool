@@ -3,35 +3,215 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "A WHIRLPOOL",
+            "url": "/"
+          },
+          {
+            "label": "NOSSAS MARCAS"
+          },
+          {
+            "label": "ESG"
+          },
+          {
+            "label": "CARREIRA"
+          },
+          {
+            "label": "INVESTIDORES"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/9dd26333-e9f2-4fbb-8ff3-99dc39fd33e6",
+        "alt": "WHIRLPOOL"
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
+      "title": "<p><span>Somos Reconhecidos pelas Principais Premiações</span></p>",
       "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "description": "Liderança de Marca e de Produtos e Excelência Operacional e de Pessoas: esses são alguns dos pilares que representam a essência da Whirlpool no Brasil.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/924df5b2-05e6-4fa9-a5ba-c58d64ddde31"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Whirlpool Corporation no Brasil, presente com as marcas Brastemp, Consul, KitchenAind, B.blend e Compra Certa.",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/f38fc342-6dd4-4d40-a177-4feec75f14e9",
+          "altText": "BRASTEMP"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/9c379b24-34a8-4ddb-ad6f-9ebabd9ac8a3",
+          "altText": "CONSUL"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/dcdcda85-88e3-4e71-b715-d3957fb3733d",
+          "altText": "KITCHENAID"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/4658887f-5608-4922-9092-92a9f81b358a",
+          "altText": "YUMMLY"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/8fc1eb6b-8138-4a26-8b38-75a89180800a",
+          "altText": "COMPRA CERTA"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/de1082f9-895f-4887-b7ff-b6843107c2de",
+          "altText": "B.BLEND"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "title": "A Whirlpool",
+      "description": "Liderança de Marca e de Produtos e Excelência Operacional e de Pessoas: esses são alguns dos pilares que representam a essência da Whirlpool Corporation no Brasil, presente com as marcas Brastemp, Consul, KitchenAind, B.blend e Compra Certa.",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/",
+          "text": "Conhecer"
+        }
+      ],
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      },
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/2db178fd-b937-41d0-89dd-f3feb255a14f"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "description": "Liderança de Marca e de Produtos e Excelência Operacional e de Pessoas: esses são alguns dos pilares que representam a essência da Whirlpool Corporation no Brasil, presente com as marcas Brastemp, Consul, KitchenAind, B.blend e Compra Certa.",
+      "title": "Carreira",
+      "tagline": " ",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/56656cfc-8c76-4315-a314-ced3d4b423e2",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/",
+          "text": "Quero ser Whirlpool"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "left",
+      "description": "Liderança de Marca e de Produtos e Excelência Operacional e de Pessoas: esses são alguns dos pilares que representam a essência da Whirlpool Corporation no Brasil, presente com as marcas Brastemp, Consul, KitchenAind, B.blend e Compra Certa.",
+      "title": "ESG",
+      "tagline": " ",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/2db178fd-b937-41d0-89dd-f3feb255a14f",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/",
+          "text": "Saber mais"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx"
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
-    },
-    {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [
+        {
+          "items": [
+            {
+              "label": "Página inicial",
+              "href": "/"
+            },
+            {
+              "label": "A Whirlpool",
+              "href": "/"
+            },
+            {
+              "label": "ESG",
+              "href": "/"
+            },
+            {
+              "label": "Carreira",
+              "href": "Investidores"
+            }
+          ],
+          "title": "INSTITUCIONAL"
+        },
+        {
+          "items": [
+            {
+              "label": "Brastemp",
+              "href": "/"
+            },
+            {
+              "label": "Consul",
+              "href": "/"
+            },
+            {
+              "label": "KitchenAid",
+              "href": "/"
+            },
+            {
+              "label": "Compra Certa",
+              "href": "/"
+            },
+            {
+              "label": "B.blend",
+              "href": "/"
+            },
+            {
+              "label": "Compra Direta",
+              "href": "/"
+            }
+          ],
+          "title": "NOSSAS MARCAS"
+        },
+        {
+          "items": [
+            {
+              "label": "Imprensa",
+              "href": "/"
+            },
+            {
+              "label": "Todas as Unidades",
+              "href": "/"
+            }
+          ],
+          "title": "SAIBA MAIS"
+        }
+      ],
+      "bottomLinks": [],
+      "social": [
+        {
+          "network": "Linkedin",
+          "href": "/"
+        },
+        {
+          "network": "Youtube",
+          "href": "/"
+        },
+        {
+          "network": "Instagram",
+          "href": "/"
+        }
+      ],
+      "subscribe": {
+        "title": "Lorem ipsum",
+        "description": "Lorem ",
+        "instructions": "<p>Lorem ipsum</p>"
+      },
+      "copyright": "© 2024 Whirlpool. Todos os direitos reservados.",
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/9dd26333-e9f2-4fbb-8ff3-99dc39fd33e6"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10938/9dd26333-e9f2-4fbb-8ff3-99dc39fd33e6",
+        "alt": "Whirlpool"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
